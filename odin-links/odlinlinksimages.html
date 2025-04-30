@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Homepage</h1>
+    <!-- //Mevcut sekmede açmasını sağlar -->
+    <a href="https://www.theodinproject.com/about">About The Odin Project</a>
+    <br>
+    <!-- //Yeni sekmede açmasını istiyorsak target öğresi ekleriz self olursa yine mevcut sekmede açar-->
+    <!-- //Noopener bağlantıtın yeni sekmede/pencerede açıldığı durumda o yeni sekmenin eski(orjinal) sayfa ile etikleşim
+    kurmasını engeller
+    //Noreferer Eğer kullanılmazsa yeni açılan sekme Javascript kullanarak orjinal sayfayı değiştirebilir hem gizlilik hem de
+    güvenlik sağlar -->
+    <!-- noopener, bazı oltalama (phishing) saldırılarını engeller. Örneğin:
+Yeni açılan sekme, sizi kandırmak için orijinal sekmeyi başka bir sahte siteye çevirebilir. Bu saldırıya "tabnabbing" denir. -->
+    <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a>
+    <!-- //Dosyalar içerisinden bağlantıda verebiliriz -->
+    <br>
+    <!-- ./ current'da dosya/dizini aramaya başlatmasını sağlar  -->
+    <a href="./pages/about.html">About</a>
+    <br>
+    <!-- //URL'den Resim gösterme -->
+    <!-- ////alt alternatif metin anlamına gelmektedir yüklenmediğinde resim yerine kullanılabilir -->
+    <img src="https://avatars.githubusercontent.com/u/4441966?s=280&v=4" alt="The Odin Project Logo">
+    <!-- //Mevcut dosyalar dosya gösterme -->
+    <img src="./images/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg" alt="Odin Porject Logo">
+</body>
+
+</html>
