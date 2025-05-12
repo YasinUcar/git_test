@@ -1,0 +1,52 @@
+* {
+    background-color: black;
+}
+
+.renkli {
+    color: red;
+}
+
+.ortali {
+    text-align: center;
+}
+
+.read,
+.unread {
+    color: yellow;
+}
+
+.read {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.alt {
+    background-color: white;
+}
+
+.alt.bir {
+    color: hotpink;
+}
+
+.alt.iki {
+    color: darkcyan;
+}
+.ana
+{
+    background-color: white;
+    color: firebrick;
+}
+.icerik
+{
+    font-size: xx-large;
+}
+.resimyazisi
+{
+    color: white;
+    font-size: x-large;
+}
+img
+{
+    height: 300px;
+    width: auto;
+}
